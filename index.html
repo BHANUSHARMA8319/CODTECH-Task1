@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="heading"><h1>WEATHER DASHBOARD</h1></div>
+    <div class="outer">
+            <div class="search_bar">
+                <input type="text" placeholder="Enter your location..." class="input" autofocus="">
+            <button class="fa-solid fa-magnifying-glass" id="searching"></button>           
+            </div>
+          <div class="not_found">
+            <h1> Sorry,City Not Found</h1>
+            <img src="404.png" alt="not found">
+        </div>
+        <div class="weather">
+            <img src="clear.png" alt="weather-image" class="weather_image">
+
+            <div class="weather-box">
+                <p class="temperature">0<sup>°C</sup></p>
+                <p class="description">clear</p>
+            </div>
+            <div class="weather-details">
+                <div class="nami">
+                <i class="fa-solid fa-cloud-rain"></i>
+                <span class="nami">25%</span>
+                <p>Humidity</p>
+                </div>
+                <div class="Wind">
+                <i class="fa-solid fa-wind"></i>
+                    <span class="Wind">30km/h</span>
+                    <p>Wind Speed</p>
+                    </div>
+
+            </div>
+        </div>
+    </div>
+    
+</body>
+<script src="https://kit.fontawesome.com/aa507675ef.js" crossorigin="anonymous"></script>
+
+<script src="script.js"></script>
+</html>

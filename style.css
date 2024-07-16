@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    font-family:sans-serif;
+     
+}
+.heading{
+    width: 400px;
+    height: min-content;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+    color: azure;
+    text-shadow: 5px 0 10px #8f0823;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color:#006989;
+    
+}
+.outer{
+    width: 400px;
+    height: min-content;
+    background-color:#F3F7EC;
+    border-radius: 10px;
+    padding: 30px;   
+}
+.outer:hover{
+    background-color: #FDFFC2;
+}
+.search_bar{
+    width: 100%;
+    height:min-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.not_found{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.not_found img{
+    width: 80%;
+}
+.not_found h1{
+    margin-block-end: 20px;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: grey;
+}
+.input{
+    width: 80%;
+    font-size: 20px;
+    background-color:#BBE9FF;
+    text-transform: capitalize;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 3px #60c6f6;
+}
+button{
+    width: 13%;
+    font-size: 20px;
+    background-color:#BBE9FF;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 0 10px 3px #60c6f6;
+}
+button:hover{
+    background-color: rgb(139, 135, 135);
+    color: aliceblue;
+}
+.weather img{
+    width: 50%;
+}
+.weather{
+    margin-block: 20px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+}
+.weather-box{
+    margin-block: 20px;
+    text-align: center;
+}
+.weather-box .temperature{
+    font-size: 35px;
+    font-weight: 800;
+    position: relative;
+}
+.weather-box .temperature sup{
+    font-size: 20px;
+    font-weight: 500 ;
+     position:absolute; 
+}
+.weather-box .description{
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.weather-details{
+    margin-top: 10px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.nami,.Wind{
+    font-size: 20px;
+    align-items: center;
+}
+
+.nami i{
+    font-size: 40px;
+}
+.Wind i{
+    font-size: 40px;
+}
+
+.weather-details p{
+    font-weight: 600;
+}
+
+
